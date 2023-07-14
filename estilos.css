@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  padding-bottom: 1000px ;
+background-color: aqua;
+}
+.sec1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foto {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.aprst{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-right: 8px solid yellow;
+  border-bottom: 8px solid yellow;
+  margin-top: 8px;
+}
+
+@media (max-width: 800px) {
+  .sec1 {
+    flex-direction: column;
+  }
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.github {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.linkedin-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.about{
+  margin-left: 20px;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 25px;
+}
+.chamado {
+  margin-bottom: 20px;
+}
