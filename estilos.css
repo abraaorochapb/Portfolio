@@ -127,3 +127,30 @@ background-color: aqua;
   color: rgb(95, 90, 90);
   font-weight: 500;
 }
+.tecnologias {
+  text-align: center;
+}
+
+.fotoTec {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.tecnologias-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width:800px){
+  .tecnologias-container{
+    flex-direction: column;
+  }
+
+  .fotoTecContainer {
+    margin-bottom: 40px;
+  }
+
+}
